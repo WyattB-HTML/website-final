@@ -5,12 +5,12 @@ html {
 	background-size: 5%;
 	font-family: 'Merriweather', serif;
 	line-height: 1.5;
-	padding-left: 40px;
+	padding-left: 2.5rem;
 }
 
 header {
 	background-color: #B0BEC5;
-	border-bottom: 15px;
+	border-bottom: 0.9375rem;
 	border-bottom-color: #blue;
 	color: white;
 	left: 0;
@@ -44,7 +44,7 @@ h3 {
 	font-size: 2.25rem;
 	text-decoration: underline;
 	text-decoration-style: double;
-	text-underline-offset: 10px;
+	text-underline-offset: 0.625rem;
 }
 
 h4 {
@@ -52,7 +52,7 @@ h4 {
 	font-size: 1.5rem;
 	text-decoration: underline;
 	text-decoration-style: dotted;
-	text-underline-offset: 6px;
+	text-underline-offset: 0.375rem;
 }
 
 p {
@@ -64,7 +64,7 @@ nav {
 	background-color: #CFD8DC;
 	background-size: contain;
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 0.625rem;
 	padding: 0;
 	width: fit-content;
 }
@@ -75,9 +75,9 @@ nav ul {
 
 nav a {
 	color: #1E88E5;
-	border-bottom: 1px;
+	border-bottom: 0.0625rem;
 	border-color: #E0E0E0;
-	padding: 30px;
+	padding: 1.875rem;
 	text-decoration: none;
 	white-space: nowrap;
 }
@@ -112,8 +112,8 @@ a:active {
 }
 
 article {
-	border-left: 3px dashed #07747a;
-	padding-left: 15px;
+	border-left: 0.1875rem dashed #07747a;
+	padding-left: 0.9375rem;
 }
 
 form {
@@ -134,34 +134,21 @@ form input, textarea {
 }
 
 .site-nav-list {
-	padding: 0 5px 0 5px;
+	padding: 0 0.3125rem 0 0.3125rem;
 	margin-bottom: 0;
 	margin-top: 0;
 }
 
 .site-nav-list li {
-	border: 1px solid #1E88E5;
+	border: 0.0625rem solid #1E88E5;
 	display: inline;
-}
-
-.button {
-	display: inline-block;
-    padding: 0.7em 1.2em;
-    background-color: #EEEEEE;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    cursor: pointer;
-    text-decoration: none;
-    transition: background-color 0.25s ease;
 }
 
 .hero {
 	background-color: #34608d;
 	background-size: cover;
 	background-position: center;
-	outline: 5px solid #3e5fea;
+	outline: 0.3125rem solid #3e5fea;
 	margin: 0 auto;
 	max-width: 38rem;
 	text-align: center;
@@ -196,22 +183,22 @@ form input, textarea {
 }
 
 .references {
-	border-top: 2px solid black;
+	border-top: 0.125rem solid black;
 }
 
 .references h3 {
 	font-size: 1rem;
 	text-decoration: underline;
 	text-decoration-style: dashed;
-	text-underline-offset: 2px;
+	text-underline-offset: 0.125rem;
 }
 
 .references ul {
-	border-right: 3px ridge #414864;
+	border-right: 0.1875rem ridge #414864;
 	font-size: 0.75rem;
 	list-style-type: none;
 	padding-left: 0;
-	padding-right: 3px;
+	padding-right: 0.1875rem;
 	text-align: right;
 	width: 40%;
 }
@@ -224,4 +211,77 @@ form input, textarea {
 	display: block;
 	margin: 0 0 1rem 0;
 	max-width: 35%;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 10rem 1rem 0 1rem;
+        max-width: 100%;
+    }
+    
+    header div {
+        font-size: 1rem;
+    }
+    
+    nav {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    nav a {
+        padding: 0.5rem 0.75rem;
+        display: block;
+    }
+    
+    .hero {
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .subtitle {
+        font-size: 1.25rem;
+    }
+    
+    article {
+        padding-left: 0.5rem;
+    }
+    
+    form ul {
+        width: 90%;
+    }
+    
+    .pic-to-right {
+        float: none;
+        max-width: 80%;
+        margin: 0 auto 1rem auto;
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        margin: 12rem auto 0 auto;
+        max-width: 40rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.75rem;
+    }
+    
+    .subtitle {
+        font-size: 1.6rem;
+    }
+    
+    nav a {
+        padding: 1.25rem;
+    }
+    
+    article {
+        padding-left: 0.875rem;
+    }
 }
