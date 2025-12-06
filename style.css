@@ -116,11 +116,12 @@ article {
 	padding-left: 0.9375rem;
 }
 
-form {
+.contact-form {
 	display: block;
+	margin-bottom: 0.5rem;
 }
 
-form ul {
+.contact-form ul {
 	display: block;
 	list-style-type: none;
 	margin: 0 auto;
@@ -128,7 +129,7 @@ form ul {
 	width: 50%;
 }
 
-form input, textarea {
+.contact-form input, textarea {
 	margin: 0 auto;
 	width: 100%;
 }
