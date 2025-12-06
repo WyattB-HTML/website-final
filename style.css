@@ -224,15 +224,6 @@ article {
         font-size: 1rem;
     }
     
-    nav {
-        text-align: center;
-    }
-    
-    nav a {
-        padding: 0.5rem 0.75rem;
-
-    }
-    
     .hero {
         max-width: 100%;
         padding: 1rem;
@@ -260,6 +251,10 @@ article {
         margin: 0 auto 1rem auto;
         display: block;
     }
+
+	.references {
+		widht: 100%;
+	}
 }
 
 @media (max-width: 1024px) {
@@ -284,4 +279,5 @@ article {
         padding-left: 0.875rem;
     }
 }
+
 
