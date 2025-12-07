@@ -224,15 +224,6 @@ article {
         font-size: 1rem;
     }
     
-    .hero {
-        max-width: 90%;
-        padding: 0.5rem;
-    }
-    
-    .hero h1 {
-        font-size: 0.9rem;
-    }
-    
     .subtitle {
         font-size: 1.25rem;
     }
@@ -291,6 +282,7 @@ article {
 		width: 60%;
 	}
 }
+
 
 
 
