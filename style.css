@@ -225,12 +225,13 @@ article {
     }
     
     .hero {
-        max-width: 100%;
-        padding: 1rem;
+        max-width: 90%;
+        padding: 0.5rem;
+		font-size: 1.5rem;
     }
     
     .hero h1 {
-        font-size: 0.5rem;
+        font-size: 1.5rem;
     }
     
     .subtitle {
@@ -291,6 +292,7 @@ article {
 		width: 60%;
 	}
 }
+
 
 
 
