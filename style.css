@@ -254,12 +254,7 @@ article {
         display: block;
     }
 
-	.references {
-		width: 100%;
-	}
-
 	.references ul {
-		text-align: left;
 		width: 100%;
 	}
 
@@ -298,6 +293,7 @@ article {
 		width: 60%;
 	}
 }
+
 
 
 
