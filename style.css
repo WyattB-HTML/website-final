@@ -262,6 +262,10 @@ article {
 		text-align: left;
 		width: 100%;
 	}
+
+	footer {
+		width: 100%;
+	}
 }
 
 @media (max-width: 1024px) {
@@ -294,6 +298,7 @@ article {
 		width: 60%;
 	}
 }
+
 
 
 
