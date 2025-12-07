@@ -231,6 +231,7 @@ article {
     
     .hero h1 {
         font-size: 0.5rem;
+		inline-size: 90%;
 		overflow-wrap: break-word;
 	}
 	
@@ -292,6 +293,7 @@ article {
 		width: 60%;
 	}
 }
+
 
 
 
